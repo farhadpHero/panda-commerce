@@ -20,8 +20,12 @@
     border-radius: 8px;
     padding: 9px 25px;
     cursor: pointer;
+    border: none;
 }
 
+.buy-now-button:hover{
+    background-image: linear-gradient(to bottom,blue 0%,cyan 100%);
+}
 .cat1{
     background-color: orange;
     padding: 10px 30px;
@@ -50,7 +54,28 @@
 
 .card{
     border: none;
+    border-radius: 10px;
     box-shadow: 5px 5px 10px lightgray;
 }
+
+
+.card-footer{
+    background-color: white;
+    border-top: none;
+}
+
+#subscribe{
+    height: 300px;
+}
+
+#subscribe h6{
+    color: gray;
+}
+
+footer{
+    text-align: center;
+}
+
+
 
 
